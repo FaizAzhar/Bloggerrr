@@ -1,18 +1,18 @@
 project:
   type: website
-
+  output-dir: docs
 website:
-  title: "Bloggerrrr"
+  title: "Math For All"
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/FaizAzhar
+      - icon: linkedin
+        href: https://www.linkedin.com/in/faiz-azhar241
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
 
 editor: visual
