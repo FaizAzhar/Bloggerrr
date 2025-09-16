@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: profile.png
+image: profile.jpg
 about:
   template: jolla
   links:
@@ -14,4 +14,4 @@ Hello everyone! I am Faiz.
 
 I had a very weird experience with Mathematics. When I was little, I hated the subject because in my school, teachers who were teaching Mathematics were fierce & fearful (sorry Mdm Asnah - this is my first thought when seeing you). To add, it has become a school of thought during the old days that to become good in Mathematics, one need to repeatedly solve a lot of problems & exercises. The sentence 'Practice Makes Perfect' and the word 'memorizing' depicts perfectly the situation that I was living back in the day. I guess those were the primary reasons that make me hate the subject so much because everything about Maths seems theoretical and isolated.
 
-But long story short, all these negative feelings have ignited my journey towards an endless pathway into the Mathematics world. Because as I tried to get out of the world, the more I was immersed into it. It was fascinating
+But long story short, all these negative feelings have ignited my journey towards an endless pathway into the Mathematics world. Because as I tried to get out of the world, the more I was immersed into it. It was fascinating and weird. Hence, the purpose of me writing this blog is to share my little knowledge about Mathematics and probably pulling interested readers to be lost together with me inside the Mathematics world.
