@@ -5,7 +5,6 @@ website:
   title: "Math For All"
   navbar:
     right:
-      - index.qmd
       - about.qmd
       - text: "Numerical Analysis"
         href: posts/S1_NumericalAnalysis/index.qmd
