@@ -5,11 +5,24 @@ website:
   title: "Math For All"
   navbar:
     right:
+      - index.qmd
       - about.qmd
+      - text: "Numerical Analysis"
+        href: posts/S1_NumericalAnalysis/index.qmd
+      - text: "Statistics & Probability"
+        href: posts/S2_Statistics/index.qmd
+      - text: "Calculus"
+        href: posts/S3_Calculus/index.qmd
+      - text: "Life Matter"
+        href: posts/S4_Rant/index.qmd
       - icon: github
         href: https://github.com/FaizAzhar
       - icon: linkedin
         href: https://www.linkedin.com/in/faiz-azhar241
+
+  open-graph: true
+  favicon: profile.jpg
+
 format:
   html:
     theme: lux

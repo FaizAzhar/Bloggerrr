@@ -1,1 +1,71 @@
 /* css styles */
+
+/* Container for vertical cards */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+/* Card link styling */
+a.card {
+  display: block;
+  padding: 2rem;
+  border-radius: 12px;
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+  overflow: hidden;
+
+  /* Dynamic sizing */
+  width: 100%;
+  height: auto;
+  min-height: 180px;
+
+  /* Background image settings */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Overlay for readability */
+a.card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(255,255,255,0.4);
+  z-index: 0;
+}
+
+/* Text above overlay */
+a.card h2,
+a.card p {
+  position: relative;
+  z-index: 1;
+}
+
+/* Hover effect */
+a.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+/* Category-specific images */
+a.card.numerical {
+  background-image: url("images/numerical.png");
+}
+
+a.card.statistics {
+  background-image: url("images/probability2.jpg");
+}
+
+a.card.calculus {
+  background-image: url("images/calculus2.jpg");
+}
+
+a.card.life {
+  background-image: url("images/life2.jpg");
+}

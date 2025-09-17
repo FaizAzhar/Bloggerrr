@@ -1,7 +1,7 @@
 ---
-title: "Bloggerrrr"
+title: "Knowledge is free"
 listing:
-  contents: posts
+  contents: topics
   sort: "date desc"
   type: default
   categories: true
@@ -10,3 +10,36 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
+
+\-\--
+
+O people, knowledge only comes by learning and understanding only comes by seeking understanding. For whomever Allah intends good, he gives him understanding of the religion. Verily, only those with knowledge fear Allah among his servants.
+
+\-\--
+
+```{=html}
+
+<div class="cards-container">
+
+<a href="posts/S1_NumericalAnalysis/index.html" class="card numerical">
+  <h2>Numerical Analysis</h2>
+  <p>Explore posts on algorithms, approximations, and numerical methods.</p>
+</a>
+
+<a href="posts/S2_Statistics/index.html" class="card statistics">
+  <h2>Statistics & Probability</h2>
+  <p>All about probability, inference, and data analysis.</p>
+</a>
+
+<a href="posts/S3_Calculus/index.html" class="card calculus">
+  <h2>Calculus</h2>
+  <p>Dive into derivatives, integrals, and theory.</p>
+</a>
+
+<a href="posts/S4_Rant/index.html" class="card life">
+  <h2>Life Matter</h2>
+  <p>Personal notes and reflections.</p>
+</a>
+
+</div>
+```
