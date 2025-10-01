@@ -12,11 +12,13 @@ title-block-banner: true
 ---
 
 ```{=html}
-<div>
-  O people, knowledge only comes by learning and understanding only comes by seeking understanding. For whomever Allah intends good, he gives him understanding of the religion. Verily, only those with knowledge fear Allah among his servants.
-</div>
+<p id="random-quote"></p>
 
+<script src="quotes.js"></script>
 
+<p>...</p>
+<p></p>
+<p></p>
 <div class="cards-container">
 
 <a href="posts/S1_NumericalAnalysis/index.html" class="card numerical">
