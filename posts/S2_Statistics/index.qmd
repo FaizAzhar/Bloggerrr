@@ -11,10 +11,4 @@ page-layout: full
 title-block-banner: true
 ---
 
-Statistics
-and Probability arose from very human curiosities: games of chance, predicting
-outcomes, and understanding uncertainty. In the 16th and 17th centuries,
-thinkers like Cardano, Pascal, and Fermat laid the foundations of probability
-theory, while statistics evolved alongside the need to interpret population and
-economic data. Today, these tools have grown into a powerful language of data,
-helping us make informed decisions in science, business, and everyday life.
+Statistics and Probability arose from very human curiosities: games of chance, predicting outcomes, and understanding uncertainty. In the 16th and 17th centuries, thinkers like Cardano, Pascal, and Fermat laid the foundations of probability theory, while statistics evolved alongside the need to interpret population and economic data. Today, these tools have grown into a powerful language of data, helping us make informed decisions in science, business, and everyday life.

@@ -1,7 +1,7 @@
 /* css styles */
 
 /* Container for random quotes*/
-body {
+/* body {
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ body {
     color: #fff;
     border: none;
     border-radius: 5px;
-}
+} */
 
 /* Container for vertical cards */
 .cards-container {

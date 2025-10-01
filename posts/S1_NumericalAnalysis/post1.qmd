@@ -1,12 +1,6 @@
 ---
-title: "Numerical Analysis"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Twsting"
+author: "Harlow Malloc"
+date: "2025-09-15"
+categories: [news, code, analysis]
 ---

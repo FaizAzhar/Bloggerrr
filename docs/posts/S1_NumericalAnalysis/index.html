@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -176,39 +176,59 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
-<p>Welcome to the world of Numerical Analysis! This field grew out of humanity's need to solve practical problems long before computers existed—think of ancient mathematicians approximating π or calculating astronomical orbits. Over time, pioneers like Newton, Euler, and Gauss developed systematic methods to approximate solutions when exact answers were impossible. Today, Numerical Analysis is the backbone of modern computing, enabling us to model, simulate, and solve problems across science and engineering.</p>
+<p>Welcome to the world of Numerical Analysis! This field grew out of humanity’s need to solve practical problems long before computers existed—think of ancient mathematicians approximating π or calculating astronomical orbits. Over time, pioneers like Newton, Euler, and Gauss developed systematic methods to approximate solutions when exact answers were impossible. Today, Numerical Analysis is the backbone of modern computing, enabling us to model, simulate, and solve problems across science and engineering.</p>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1758081809174" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1757865600000" data-listing-file-modified-sort="1759311411336" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="../../posts/S1_NumericalAnalysis/post1.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
 <div class="body">
 <a href="../../posts/S1_NumericalAnalysis/post1.html">
 <h3 class="no-anchor listing-title">
-Numerical Analysis
+Twsting
 </h3>
 <div class="listing-subtitle">
 
 </div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
+code
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
+analysis
+</div>
+</div>
+<a href="../../posts/S1_NumericalAnalysis/post1.html">
 <div class="listing-description">
 
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="../../posts/S1_NumericalAnalysis/post1.html"> </a>
+<a href="../../posts/S1_NumericalAnalysis/post1.html">
+<div class="listing-date">
+Sep 15, 2025
+</div>
+<div class="listing-author">
+Harlow Malloc
+</div>
+</a>
 </div>
 </div>
 </div>
