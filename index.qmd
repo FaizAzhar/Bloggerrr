@@ -4,20 +4,18 @@ listing:
   contents: topics
   sort: "date desc"
   type: default
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
 page-layout: full
 title-block-banner: true
 ---
 
-\-\--
-
-O people, knowledge only comes by learning and understanding only comes by seeking understanding. For whomever Allah intends good, he gives him understanding of the religion. Verily, only those with knowledge fear Allah among his servants.
-
-\-\--
-
 ```{=html}
+<div>
+  O people, knowledge only comes by learning and understanding only comes by seeking understanding. For whomever Allah intends good, he gives him understanding of the religion. Verily, only those with knowledge fear Allah among his servants.
+</div>
+
 
 <div class="cards-container">
 

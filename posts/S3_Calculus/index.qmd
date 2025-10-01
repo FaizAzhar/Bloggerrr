@@ -4,4 +4,17 @@ listing:
   contents: .
   sort: "date desc"
   type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
+
+Calculus,
+often called the \"mathematics of change,\" was born in the 17th century out of a
+desire to understand motion, growth, and the infinite. Independently developed
+by Isaac Newton and Gottfried Wilhelm Leibniz, it gave humanity a new lens to
+describe nature---from planetary orbits to flowing rivers. What began as a
+revolutionary leap is now a cornerstone of modern science and engineering,
+providing the foundation for countless discoveries and technologies.

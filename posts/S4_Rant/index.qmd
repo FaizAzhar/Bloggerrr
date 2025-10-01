@@ -4,4 +4,15 @@ listing:
   contents: .
   sort: "date desc"
   type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
+
+Life
+is more than numbers and equations---it\'s about reflection, growth, and meaning.
+This space is dedicated to thoughts, stories, and lessons that touch on the
+human side of learning and living. From motivation to personal experiences,
+\"Life Matters\" is a place to pause, connect, and find inspiration

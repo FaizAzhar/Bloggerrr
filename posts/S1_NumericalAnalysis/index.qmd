@@ -4,4 +4,19 @@ listing:
   contents: .
   sort: "date desc"
   type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
+
+Welcome
+to the world of Numerical Analysis! This field grew out of humanity\'s need to
+solve practical problems long before computers existed---think of ancient
+mathematicians approximating π or
+calculating astronomical orbits. Over time, pioneers like Newton, Euler, and
+Gauss developed systematic methods to approximate solutions when exact answers
+were impossible. Today, Numerical Analysis is the backbone of modern computing,
+enabling us to model, simulate, and solve problems across science and
+engineering.
