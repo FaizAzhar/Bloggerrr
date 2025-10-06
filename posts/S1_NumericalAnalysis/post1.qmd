@@ -2,6 +2,8 @@
 title: "Limits & Continuity"
 date: "2025-10-06"
 categories: [numerical, theory, analysis]
+nocite: |
+  @Konrad1947, @Burden2011
 ---
 
 **Limits** is fundamental in mathematics especially when dealing with scientific computing problem.
@@ -81,8 +83,13 @@ If $(x_n)$ is a given sequence, and if it is related to a number $K$, in such a 
 Every sequence in which is not convergent (because we cannot form a null sequence) is called divergent.
 :::
 
-At its core, the idea of limits helps us make sense of values that can’t be perfectly known — only approached. Whether it’s finding where a function heads as it grows larger and larger, or figuring out if a sequence settles toward a single value, limits give us the language to describe “almost” and “getting closer.”
+At its core, the idea of limits helps us make sense of values that can't be perfectly known --- only approached. Whether it's finding where a function heads as it grows larger and larger, or figuring out if a sequence settles toward a single value, limits give us the language to describe "almost" and "getting closer."
 
-Once we understand limits, continuity becomes much more intuitive — it’s simply when a function behaves smoothly without sudden jumps or breaks. And when we talk about convergence, we’re really seeing limits in action through sequences that gradually stabilize.
+Once we understand limits, continuity becomes much more intuitive --- it's simply when a function behaves smoothly without sudden jumps or breaks. And when we talk about convergence, we're really seeing limits in action through sequences that gradually stabilize.
 
-These ideas might seem abstract at first, but they’re the foundation of calculus and modern scientific computing. Every derivative, every integral, and every numerical approximation starts here — with the simple yet powerful notion of approaching a value as closely as we want.
+These ideas might seem abstract at first, but they're the foundation of calculus and modern scientific computing. Every derivative, every integral, and every numerical approximation starts here --- with the simple yet powerful notion of approaching a value as closely as we want.
+
+# References
+
+::: {#refs}
+:::
