@@ -1,18 +1,8 @@
 [
   {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
-    "listing": "/posts/S1_NumericalAnalysis/index.html",
+    "listing": "/posts/S4_Rant/index.html",
     "items": [
-      "/posts/S1_NumericalAnalysis/post1.html"
-    ]
-  },
-  {
-    "listing": "/posts/S2_Statistics/index.html",
-    "items": [
-      "/posts/S2_Statistics/Statistics_Probability.html"
+      "/posts/S4_Rant/post3.html"
     ]
   },
   {
@@ -22,14 +12,24 @@
     ]
   },
   {
-    "listing": "/posts/S3_Calculus/post2.html",
+    "listing": "/posts/S2_Statistics/index.html",
+    "items": [
+      "/posts/S2_Statistics/Statistics_Probability.html"
+    ]
+  },
+  {
+    "listing": "/posts/S1_NumericalAnalysis/index.html",
+    "items": [
+      "/posts/S1_NumericalAnalysis/post1.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
     "items": []
   },
   {
-    "listing": "/posts/S4_Rant/index.html",
-    "items": [
-      "/posts/S4_Rant/post3.html"
-    ]
+    "listing": "/posts/S3_Calculus/post2.html",
+    "items": []
   },
   {
     "listing": "/posts/S4_Rant/post3.html",
