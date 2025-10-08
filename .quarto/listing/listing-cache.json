@@ -1,0 +1,19 @@
+{
+  "listingMap": {
+    "index.qmd": [
+      "topics"
+    ],
+    "posts\\S1_NumericalAnalysis\\index.qmd": [
+      "."
+    ],
+    "posts\\S2_Statistics\\index.qmd": [
+      "."
+    ],
+    "posts\\S3_Calculus\\index.qmd": [
+      "."
+    ],
+    "posts\\S4_Rant\\index.qmd": [
+      "."
+    ]
+  }
+}
