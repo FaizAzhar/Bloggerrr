@@ -20,7 +20,7 @@ website:
         href: https://www.linkedin.com/in/faiz-azhar241
 
   open-graph: true
-  favicon: profile.jpg
+  favicon: profile.png
 
 bibliography: biblio.bib
 format:

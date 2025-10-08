@@ -88,8 +88,3 @@ At its core, the idea of limits helps us make sense of values that can't be perf
 Once we understand limits, continuity becomes much more intuitive --- it's simply when a function behaves smoothly without sudden jumps or breaks. And when we talk about convergence, we're really seeing limits in action through sequences that gradually stabilize.
 
 These ideas might seem abstract at first, but they're the foundation of calculus and modern scientific computing. Every derivative, every integral, and every numerical approximation starts here --- with the simple yet powerful notion of approaching a value as closely as we want.
-
-# References
-
-::: {#refs}
-:::
