@@ -266,8 +266,8 @@ window.Quarto = {
 <p>So in this situation, we need use some basic trick that will allow us to at least approximate the irrational number. In our case, let say that we have found a number <span class="math inline">\(x\)</span> that is the decimal number representation for <span class="math inline">\(\sqrt{2}\)</span>, we can then write the following expression which is true.</p>
 <p><span class="math display">\[x-\sqrt{2}=0\]</span></p>
 <p>We can turn expression above into a function because we still do not know what decimal number the <span class="math inline">\(x\)</span> should be. And this problem that we created just now is called the root-finding problem because it involves in finding a solution (root) of an equation of the form <span class="math inline">\(f(x)=0\)</span>.</p>
-<p>The bisection method was a technique developed as far back to at least 1700 B.C.E. It works by repeatedly cut a number interval, say <span class="math inline">\([a,b]\)</span>, into half (bisecting) and at each step, finding the subinterval which containing the root.</p>
-<p>The following algorithm is an example of the steps done in this technique. Note that this is not the exact method how computer was programmed to calculate <span class="math inline">\(\sqrt{2}\)</span>.</p>
+<p>The bisection method was a technique developed as far back to at least 1700 B.C.E. It works by repeatedly cut a number interval, say <span class="math inline">\([a,b]\)</span>, into half (bisecting) and at each step, finding the subinterval which containing the root. If we think beyond mathematics, this concept is similar like cutting objects into smaller pieces right (think of chemistry)?</p>
+<p>The following algorithm is an example of the steps done in bisection method. Note that this is not the exact method how computer was programmed to calculate <span class="math inline">\(\sqrt{2}\)</span>.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>fn <span class="ot">&lt;-</span> <span class="cf">function</span>(x){</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(x <span class="sc">-</span> <span class="dv">2</span><span class="sc">^</span>(<span class="fl">0.5</span>))</span>
@@ -283,15 +283,16 @@ window.Quarto = {
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  halfpoint <span class="ot">&lt;-</span> (a <span class="sc">+</span> b)<span class="sc">/</span><span class="dv">2</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  half_list <span class="ot">&lt;-</span> <span class="fu">append</span>(half_list, halfpoint)</span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="co"># check which subinterval have positive &amp; negative sign</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">fn</span>(a) <span class="sc">&lt;</span> <span class="dv">0</span> <span class="sc">&amp;</span> <span class="fu">fn</span>(halfpoint) <span class="sc">&gt;</span> <span class="dv">0</span>){</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    a <span class="ot">&lt;-</span> a</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    b <span class="ot">&lt;-</span> halfpoint</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> <span class="cf">if</span>(<span class="fu">fn</span>(halfpoint) <span class="sc">&lt;</span> <span class="dv">0</span> <span class="sc">&amp;</span> <span class="fu">fn</span>(b) <span class="sc">&gt;</span> <span class="dv">0</span>){</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    a <span class="ot">&lt;-</span> halfpoint</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    b <span class="ot">&lt;-</span> b</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="co"># then assign as new interval for next iteration</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">fn</span>(a) <span class="sc">&lt;</span> <span class="dv">0</span> <span class="sc">&amp;</span> <span class="fu">fn</span>(halfpoint) <span class="sc">&gt;</span> <span class="dv">0</span>){</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    a <span class="ot">&lt;-</span> a</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    b <span class="ot">&lt;-</span> halfpoint</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> <span class="cf">if</span>(<span class="fu">fn</span>(halfpoint) <span class="sc">&lt;</span> <span class="dv">0</span> <span class="sc">&amp;</span> <span class="fu">fn</span>(b) <span class="sc">&gt;</span> <span class="dv">0</span>){</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    a <span class="ot">&lt;-</span> halfpoint</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    b <span class="ot">&lt;-</span> b</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  i <span class="ot">&lt;-</span> i <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>The following are the halfpoints which were generated after 10 iterations. As you can see, the movement of the halfpoints are closer to the <span class="math inline">\(\sqrt{2}\)</span> (red vertical line) over the time.</p>
 <div class="cell">
